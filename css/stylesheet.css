@@ -14,20 +14,59 @@
     
 }
 
+
 #calcuator{
     
     margin-top:5%;
     margin-left: auto;
-    margin-right:auto;
+    margin-right:auto
     background: linear-gradient(135deg, rgba(252,234,187,1) 0%,rgba(252,205,77,1) 50%,rgba(248,181,0,1) 51%,rgba(251,223,147,1) 100%); 
     
 }
+
+@media screen and (max-width: 480px) {
+    #calculator {
+        min-width: 100%; 
+    }
+    
+    
+   
+}
+
+@media screen and (min-width: 480px) and (max-width:800px) {
+    #calculator {
+        min-width: 80%; 
+    }
+    
+     
+    
+   
+}
+
+
+
+@media screen and (min-width:800px) {
+    #calculator {
+        min-width: 40%; 
+    }
+    
+    
+    
+    
+   
+}
+
 
 #output{
 
     font-size: 20px;
     padding:10%;
         font-family:cursive;
+    
+    
+    overflow: scroll;
+    
+    
     
 }
 
