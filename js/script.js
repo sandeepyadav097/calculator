@@ -16,8 +16,21 @@ $('document').ready(function(){
     
             $("#button0").on("click", function(){                  
          
-              
-                if(z<=14) 
+               
+              if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+0;
+                         history[0]=""+0;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+                
+              else if(z<=10 && history[0][history[0].length-1]!=="=") 
                      {
                          audio.play();
                 screen[0]=screen[0]+0;
@@ -29,12 +42,29 @@ $('document').ready(function(){
         $("#history").html(history[0]);        
           $("#data").html(screen[0]);
             }
+            
+                
+           
+                
    });
     
     
             $("#button1").on("click", function(){  
                 
-                if(z<=14)
+                if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+1;
+                         history[0]=""+1;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+                
+                else if(z<=10 && history[0][history[0].length-1]!=="=")
                  {
                  audio.play();    
          screen[0]=screen[0]+1;
@@ -51,7 +81,19 @@ $('document').ready(function(){
     
      $("#button2").on("click", function(){                  
         
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+2;
+                         history[0]=""+2;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+        else if(z<=10 && history[0][history[0].length-1]!=="=")
           {
               
               audio.play();
@@ -70,7 +112,19 @@ $('document').ready(function(){
     
      $("#button3").on("click", function(){                  
       
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+3;
+                         history[0]=""+3;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+       else if(z<=10 && history[0][history[0].length-1]!=="=")
               {
                   audio.play();
          history[0]=history[0]+3; 
@@ -86,8 +140,19 @@ $('document').ready(function(){
     
     
      $("#button4").on("click", function(){                  
-         
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+4;
+                         history[0]=""+4;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+         else if(z<=10 && history[0][history[0].length-1]!=="=")
           {
               
                 audio.play();
@@ -105,7 +170,19 @@ $('document').ready(function(){
     
      $("#button5").on("click", function(){                  
       
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+5;
+                         history[0]=""+5;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+        else if(z<=10 && history[0][history[0].length-1]!=="=")
          {
              
                audio.play();
@@ -123,8 +200,19 @@ $('document').ready(function(){
     
     
      $("#button6").on("click", function(){   
-         
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+6;
+                         history[0]=""+6;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+        else if(z<=10 && history[0][history[0].length-1]!=="=")
              {
            audio.play();
          history[0]=history[0]+6; 
@@ -140,8 +228,19 @@ $('document').ready(function(){
     
     
      $("#button7").on("click", function(){ 
-         
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+7;
+                         history[0]=""+7;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+         else if(z<=10 && history[0][history[0].length-1]!=="=")
          {
                audio.play();
          history[0]=history[0]+7; 
@@ -158,8 +257,19 @@ $('document').ready(function(){
     
     
      $("#button8").on("click", function(){ 
-         
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+8;
+                         history[0]=""+8;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+         else if(z<=10 && history[0][history[0].length-1]!=="=")
          {
                audio.play();
          history[0]=history[0]+8; 
@@ -175,8 +285,19 @@ $('document').ready(function(){
     
     
      $("#button9").on("click", function(){ 
-         
-         if(z<=14)
+         if(history[0][history[0].length-1]=="=")
+                    {
+                        audio.play();
+                        console.log(history[0][history[0].length-1]);
+                        screen[0]=""+9;
+                         history[0]=""+9;
+                        z=0;
+                flag=0;
+                        
+                        $("#history").html(history[0]);        
+          $("#data").html(screen[0]);
+                    }
+        else if(z<=10 && history[0][history[0].length-1]!=="=")
          {
                audio.play();
          history[0]=history[0]+9; 
@@ -198,11 +319,11 @@ $('document').ready(function(){
              {
                  history[0]=history[0]+"=";
                   screen[0]=eval(screen[0]);
-                 history[0]=history[0]+eval(screen[0]);
+                // history[0]=history[0]+eval(screen[0]);
          $("#data").html(eval(screen[0])); 
                  $("#history").html(history[0]);
                  
-                 z=0;
+                 z=14;
              }
         
          console.log(eval(screen[0]));
@@ -217,7 +338,7 @@ $('document').ready(function(){
            {
                
         history[0]=history[0]+"+";
-         screen[0]=screen[0]+"+";
+         screen[0]=eval(screen[0])+"+";
          $("#data").html(screen[0]);
                $("#history").html(history[0]);
                flag=1;
@@ -235,7 +356,7 @@ $('document').ready(function(){
                 flag=1;
                 z=0;
                  history[0]=history[0]+"-";
-                screen[0]=screen[0]+"-";
+                screen[0]=eval(screen[0])+"-";
          $("#data").html(screen[0]); 
                 $("#history").html(history[0]);
         
@@ -250,7 +371,7 @@ $('document').ready(function(){
             {
                z=0;
                  history[0]=history[0]+"*";
-                screen[0]=screen[0]+"*";
+                screen[0]=eval(screen[0])+"*";
          $("#data").html(screen[0]);
                 $("#history").html(history[0]);
                 
@@ -267,7 +388,7 @@ $('document').ready(function(){
             {
                 z=0;
                  history[0]=history[0]+"/";
-                screen[0]=screen[0]+"/";
+                screen[0]=eval(screen[0])+"/";
          $("#data").html(screen[0]);
                 $("#history").html(history[0]);
                 flag=1
