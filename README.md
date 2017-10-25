@@ -5,6 +5,6 @@ This is a simple JavaScript Calculator made for the Free Code Camp Project.Vario
 
 
 
-## Head over to the link:-
+# Head over to the link:-
 
-### https://sandeepyadav097.github.io/calculator/
+#https://sandeepyadav097.github.io/calculator/
